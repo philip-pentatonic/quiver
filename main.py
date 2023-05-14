@@ -20,9 +20,9 @@ embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
 vector_store = SupabaseVectorStore(
     supabase, embeddings, table_name="documents")
 models = ["gpt-3.5-turbo", "gpt-4"]
-if anthropic_api_key:
-    models += ["claude-v1", "claude-v1.3",
-               "claude-instant-v1-100k", "claude-instant-v1.1-100k"]
+#if anthropic_api_key:
+#    models += ["claude-v1", "claude-v1.3",
+#               "claude-instant-v1-100k", "claude-instant-v1.1-100k"]
 
 # Set the theme
 st.set_page_config(
