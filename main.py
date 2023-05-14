@@ -32,7 +32,7 @@ st.set_page_config(
 )
 
 
-st.title("Pentatonic Knoweldge Base")
+st.title("Pentatonic Knowledge Base")
 st.markdown("Store your knowledge in a vector store and query it with OpenAI's GPT-3/4.")
 st.markdown("---\n\n")
 
