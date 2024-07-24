@@ -2,10 +2,20 @@ langchain==0.0.166
 Markdown==3.4.3
 openai==0.27.6
 pdf2image==1.16.3
-pypdf==3.8.1
-streamlit==1.22.0
+pypdf==3.17.0
+streamlit==1.30.0
 StrEnum==0.4.10
 supabase==1.0.3
 tiktoken==0.4.0
 unstructured==0.6.5
 anthropic==0.2.8
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+validators>=0.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
