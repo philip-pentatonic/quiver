@@ -9,3 +9,5 @@ supabase==1.0.3
 tiktoken==0.4.0
 unstructured==0.6.5
 anthropic==0.2.8
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
